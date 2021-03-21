@@ -1,0 +1,55 @@
+.todo-container {
+    border: 2px solid black;
+    display: fkex;
+    flex-direction: column;
+    /*justify-content: center;
+    align-items: center;*/
+    margin: 20px;
+    height: 90vh;
+}
+
+.title_header {
+    background-color: #ffe66d;
+    text-align: center;
+}
+
+.main_title {
+    font-size: 50px;
+    text-transform: uppercase;
+}
+
+.subTitle {
+    font-size: 25px;    
+}
+
+.todo_form {
+    width: 50%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.todo_form > input[type="text"] {
+    border: none;
+    border-bottom: 2px solid #4ecdc4;
+    opacity: 0.5;
+    outline: none;
+    padding: 10px;
+}
+
+.todo_form > input[type="text"]:hover,
+.todo_form > input[type="text"]:focus {
+    opacity: 1;
+}
+
+.todo_form > button {
+    border: none;
+    background-color: #4ecdc4;
+    color: #fff;
+}
+
+.todo_form > button:hover {
+    border: 1px solid #4ecdc4;
+    background-color: #fff;
+    color: #4ecdc4;
+    box-shadow: 0 5px 6px 0 #999;
+}
